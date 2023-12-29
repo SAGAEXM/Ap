@@ -1,3 +1,7 @@
+#!coding : utf-8
+#!usr/lib/python3.11
+#OPEN SOURCE BY JUTT
+print(" Open source by JUTTBRAND")
 ##------------------[ INSTALL-MENU ]------------------##
 import uuid
 import os,sys,time
@@ -82,8 +86,8 @@ def es():
       if path.isfile("/data/data/com.termux/files/usr/bin/rm"):
            pass
       else:
-	   system('clear');print('System Modification Not Allowed since using Jutt');exit()
-  
+           system('clear');print('System Modification Not Allowed since using Jutt');exit()
+ 
       if path.isfile("/data/data/com.termux/files/usr/bin/termux-reset"):
            pass
       else:
@@ -169,8 +173,39 @@ princp=[]
 usr=[]
 android_models=[]
 #-----------------------------------------------------#
-
+bLIMON="\033[1;30m" 
+M="\033[1;31m" 
+W = '\x1b[1;97m' #white 
+Y = '\x1b[1;93m' #yellow 
+S = '\x1b[1;96m' #sky_blue    
+H="\033[1;33m"               
+byellow="\033[1;33m"     
+bblue="\033[1;34m"        
+P="\033[1;35m"               
+C="\033[1;36m"          
+B="\033[1;37m"       
+G="\033[1;32m"              
+R="\033[1;31m"
+AA="\033[1;32m"
+BB="\033[1;31m"
+CC="\033[1;36m"
+X='\033[1;30m'
+XX="\x1b[38;5;196m"
+GGG="\x1b[38;5;214m"
 #-----------------------------------------------------#
+ 
+din = datetime.datetime.now().now
+mash = datetime.datetime.now().month
+bosor = datetime.datetime.now().year
+ 
+loop = 0
+oks = []
+cps = []
+twf = []
+bou = []
+ugen = []
+method = []
+password = []
  
 myid = uuid.uuid4().hex[:40].upper()
 idmy = uuid.uuid4().hex[:6].upper()
@@ -240,14 +275,24 @@ def limon1():
         return ua
 #-----------------------------------------------------#
 os.system('xdg-open https://chat.whatsapp.com/Kyh2gU9DkDPFsJIGekbkug ')
-logo1 = f"""
+logo1 = f"""{W}
+\033[1;32m88     88 8b    d8  dP"Yb  88b 88 
+\033[1;31m88     88 88b  d88 dP   Yb 88Yb88 
+\033[1;33m88  .o 88 88YbdP88 Yb   dP 88 Y88 
+\033[1;32m88ood8 88 88 YY 88  YbodP  88  Y8 
 \033[1;33m<><><><><><><><><<><><><><><><><><><><><><><>
+ [<>] \033[1;36mOWNER   :  MD LIMON TALUKDER
+ [<>] \033[1;32mBROTHER :  HADI ANHAF AIMAN
+ [<>] \033[1;34mGITHUB  :  LIMON-HASAN
+ [<>] \033[1;35mSTATUS  :  TRYL
+ [<>] \033[1;31mTOOLS   :  FILE X RANDOM
+ [<>] \033[1;37mVERSION :  \033[1;32m 0.5\033[1;32m \033[1;37m
 \033[1;33m<><><><><><><><><<><><><><><><><><><><><><><>
 \033[1;32m═══════════════════════════════════════════════
  LICENSE  : {MY_KEY}
 \033[1;32m═══════════════════════════════════════════════"""
  
-line = f"><><><<><><><><><><><><><><><><><><><>"
+line = f"{Y}<><><><<><><><><><><><><><><><><><><><>"
  
 def clear():os.system('clear');print(logo1)
 def linex():print(line)
