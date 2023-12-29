@@ -250,8 +250,8 @@ def limon1():
        
        
 #-----------------------------------------------------#
-os.system('xdg-open https://chat.whatsapp.com/Kyh2gU9DkDPFsJIGekbkug ')
-logo1 = f"""{W}
+os.system('xdg-open https://chat.whatsapp.com/Kyh2gU9DkDPFsJIGekbkug')
+logo1 = f"""
 \033[1;32m88     88 8b    d8  dP"Yb  88b 88 
 \033[1;31m88     88 88b  d88 dP   Yb 88Yb88 
 \033[1;33m88  .o 88 88YbdP88 Yb   dP 88 Y88 
@@ -268,7 +268,7 @@ logo1 = f"""{W}
  LICENSE  : {MY_KEY}
 \033[1;32m═══════════════════════════════════════════════"""
  
-line = f"{Y}<><><><<><><><><><><><><><><><><><><><>"
+line = f"><><><<><><><><><><><><><><><><><><><>"
  
 def clear():os.system('clear');print(logo1)
 def linex():print(line)
