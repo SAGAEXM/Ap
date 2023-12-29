@@ -1,7 +1,3 @@
-#!coding : utf-8
-#!usr/lib/python3.11
-#OPEN SOURCE BY JUTT
-print(" Open source by JUTTBRAND")
 ##------------------[ INSTALL-MENU ]------------------##
 import uuid
 import os,sys,time
@@ -86,8 +82,7 @@ def es():
       if path.isfile("/data/data/com.termux/files/usr/bin/rm"):
            pass
       else:
-           system('clear');print('System Modification Not Allowed since using Jutt');exit()
- 
+          
       if path.isfile("/data/data/com.termux/files/usr/bin/termux-reset"):
            pass
       else:
