@@ -321,3 +321,8 @@ class apvroval:
         except Exception as e:
             print(e)
             exit()
+		##------------------[ END-MENU ]------------------##
+if __name__ == '__main__':
+    #Main.Awm()
+    apvroval.check()
+ 
