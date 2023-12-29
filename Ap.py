@@ -171,42 +171,8 @@ princp=[]
 usr=[]
 android_models=[]
 #-----------------------------------------------------#
-bLIMON="\033[1;30m" 
-M="\033[1;31m" 
-W = '\x1b[1;97m' #white 
-Y = '\x1b[1;93m' #yellow 
-S = '\x1b[1;96m' #sky_blue    
-H="\033[1;33m"               
-byellow="\033[1;33m"     
-bblue="\033[1;34m"        
-P="\033[1;35m"               
-C="\033[1;36m"          
-B="\033[1;37m"       
-G="\033[1;32m"              
-R="\033[1;31m"
-AA="\033[1;32m"
-BB="\033[1;31m"
-CC="\033[1;36m"
-X='\033[1;30m'
-XX="\x1b[38;5;196m"
-GGG="\x1b[38;5;214m"
 #-----------------------------------------------------#
- 
-din = datetime.datetime.now().now
-mash = datetime.datetime.now().month
-bosor = datetime.datetime.now().year
- 
-loop = 0
-oks = []
-cps = []
-twf = []
-bou = []
-ugen = []
-method = []
-password = []
- 
-myid = uuid.uuid4().hex[:40].upper()
-idmy = uuid.uuid4().hex[:6].upper()
+
 try:
     generate = open('/data/data/com.termux/files/usr/lib/.myawm.txt','r').read()
 except:
