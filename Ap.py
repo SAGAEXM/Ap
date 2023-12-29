@@ -1,7 +1,5 @@
 #!coding : utf-8
 #!usr/lib/python3.11
-#OPEN SOURCE BY JUTT
-print(" Open source by JUTTBRAND")
 ##------------------[ INSTALL-MENU ]------------------##
 import uuid
 import os,sys,time
@@ -277,16 +275,6 @@ def limon1():
 os.system('xdg-open https://chat.whatsapp.com/Kyh2gU9DkDPFsJIGekbkug ')
 logo1 = f"""{W}
 \033[1;32m88     88 8b    d8  dP"Yb  88b 88 
-\033[1;31m88     88 88b  d88 dP   Yb 88Yb88 
-\033[1;33m88  .o 88 88YbdP88 Yb   dP 88 Y88 
-\033[1;32m88ood8 88 88 YY 88  YbodP  88  Y8 
-\033[1;33m<><><><><><><><><<><><><><><><><><><><><><><>
- [<>] \033[1;36mOWNER   :  MD LIMON TALUKDER
- [<>] \033[1;32mBROTHER :  HADI ANHAF AIMAN
- [<>] \033[1;34mGITHUB  :  LIMON-HASAN
- [<>] \033[1;35mSTATUS  :  TRYL
- [<>] \033[1;31mTOOLS   :  FILE X RANDOM
- [<>] \033[1;37mVERSION :  \033[1;32m 0.5\033[1;32m \033[1;37m
 \033[1;33m<><><><><><><><><<><><><><><><><><><><><><><>
 \033[1;32m═══════════════════════════════════════════════
  LICENSE  : {MY_KEY}
