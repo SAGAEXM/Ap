@@ -91,7 +91,7 @@ def es():
       else:
            system('clear');print('System Modification Not Allowed since using Jutt');exit()
  
-ik      if path.isfile("/data/data/com.termux/files/usr/bin/termux-setup-storage"):
+      if path.isfile("/data/data/com.termux/files/usr/bin/termux-setup-storage"):
            pass
       else:
            system('clear');print('System Modification Not Allowed since using Jutt');exit()
